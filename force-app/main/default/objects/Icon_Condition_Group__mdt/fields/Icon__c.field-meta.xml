@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Icon__c</fullName>
+    <description>Lookup to the Icon__mdt record to surface if the related child Icon Condition records evaluate to true.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Lookup to the Icon__mdt record to surface if the related child Icon Condition records evaluate to true.</inlineHelpText>
+    <label>Icon</label>
+    <referenceTo>Icon__mdt</referenceTo>
+    <relationshipLabel>Icon Condition Groups</relationshipLabel>
+    <relationshipName>Icon_Condition_Groups</relationshipName>
+    <required>true</required>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>

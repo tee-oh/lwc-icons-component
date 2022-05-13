@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Qualifying_Value__c</fullName>
+    <description>The value that qualifies this icon to be shown on the specified record. Can be literal or based on a system variable. See examples in quotations, i.e. Credit_Decision__c = &quot;Rejected&quot;, Credit_Check_Date__c Greater Than &quot;180 days&quot;, etc. Note, do not include the quotations, only the value.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>The value that qualifies this icon to be shown on the specified record. Can be literal or based on a system variable. See examples in quotations, i.e. Credit_Decision__c = &quot;Rejected&quot;, Credit_Check_Date__c Greater Than &quot;180 days&quot;, etc. Note, do not include the quotations, only the value.</inlineHelpText>
+    <label>Qualifying Value</label>
+    <required>false</required>
+    <type>TextArea</type>
+</CustomField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Filter_Type__c</fullName>
+    <description>Filter type identifies if the icon condition records will inclusive (AND) conditions, or exclusive (OR) conditions. For a single condition, the default is AND. Note, currently, a combination of inclusive AND exclusive conditions is not supported.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Filter type identifies if the icon condition records will inclusive (AND) conditions, or exclusive (OR) conditions. For a single condition, the default is AND. Note, currently, a combination of inclusive AND exclusive conditions is not supported.</inlineHelpText>
+    <label>Filter Type</label>
+    <required>true</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AND</fullName>
+                <default>true</default>
+                <label>AND</label>
+            </value>
+            <value>
+                <fullName>OR</fullName>
+                <default>false</default>
+                <label>OR</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

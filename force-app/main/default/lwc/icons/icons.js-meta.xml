@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__RecordPage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage">
+            <supportedFormFactors>
+                <supportedFormFactor type="Small" />
+                <supportedFormFactor type="Large" />
+            </supportedFormFactors>
+            <property name="accountIdFieldApiName" type="String" label="Account Id Field API Name" description="To inherit and display the icons from a parent account on this page, add the API name of the field that correlates with this record's parent account id. You may go up to one level to the grandparent record, if needed. i.e. Account__c, Case__r.AccountId, etc."/>
+            <property name="caseIdFieldApiName" type="String" label="Case Id FIeld API Name" description="To inherit and display the icons from a parent case on this page, add the API name of the field that correlates with this record's parent case id. You may go up to one level to the grandparent record, if needed. i.e. Case__c, Case_Child_Object__r.Case, etc."/>
+            <property name="contactIdFieldApiName" type="String" label="Contact Id Field API Name" description="To inherit and display the icons from a parent contact on this page, add the API name of the field that correlates with this record's parent contact id. You may go up to one level to the grandparent record, if needed. i.e. Contact__c, Contact_Child_Object__r.Contact__c, etc."/>
+            <property name="opportunityIdFieldApiName" type="String" label="Opportunity Id Field API Name" description="To inherit and display the icons from a parent opportunity on this page, add the API name of the field that correlates with this record's parent opportunity id. You may go up to one level to the grandparent record, if needed. i.e. Opportunity__c, Opportunity_Child_Object__r.Contact__c, etc."/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

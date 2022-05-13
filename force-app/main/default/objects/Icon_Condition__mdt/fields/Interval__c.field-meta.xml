@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interval__c</fullName>
+    <description>If the Source Field Data Type is &quot;Date&quot; AND the Operator Type is &quot;System Variable&quot;, specify the unit of time for the &quot;Qualitfying Value&quot;. If using &quot;Today&quot; or &quot;Now&quot;, no &quot;Qualifying Value&quot; is required.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>If the Source Field Data Type is &quot;Date&quot; AND the Operator Type is &quot;System Variable&quot;, specify the unit of time for the &quot;Qualitfying Value&quot;. If using &quot;Today&quot; or &quot;Now&quot;, no &quot;Qualifying Value&quot; is required.</inlineHelpText>
+    <label>Interval</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Days</fullName>
+                <default>false</default>
+                <label>Days</label>
+            </value>
+            <value>
+                <fullName>Months</fullName>
+                <default>false</default>
+                <label>Months</label>
+            </value>
+            <value>
+                <fullName>Years</fullName>
+                <default>false</default>
+                <label>Years</label>
+            </value>
+            <value>
+                <fullName>Now</fullName>
+                <default>false</default>
+                <label>Now</label>
+            </value>
+            <value>
+                <fullName>Today</fullName>
+                <default>false</default>
+                <label>Today</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

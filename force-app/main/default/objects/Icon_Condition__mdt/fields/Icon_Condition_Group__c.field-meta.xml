@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Icon_Condition_Group__c</fullName>
+    <description>Lookup to the Icon Condition Group that this Icon Condition belongs to.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Lookup to the Icon Condition Group that this Icon Condition belongs to.</inlineHelpText>
+    <label>Icon Condition Group</label>
+    <referenceTo>Icon_Condition_Group__mdt</referenceTo>
+    <relationshipLabel>Icon Conditions</relationshipLabel>
+    <relationshipName>Icon_Conditions</relationshipName>
+    <required>true</required>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>

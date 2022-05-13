@@ -1,0 +1,26 @@
+<template>
+    <template if:true={showIcons}>
+        <div class="slds-box slds-box_small slds-theme_default">
+            <div class="c-container" id="icons">
+                <lightning-layout vertical-align="center">
+                    <lightning-layout-item>
+                        <h2 class="slds-p-left_xx-small slds-p-right_x-small slds-text-heading_small">
+                            <span class="slds-truncate" title="Icons" style="color: #28313d;">{objectLabel} Icons</span>
+                        </h2>
+                    </lightning-layout-item>
+                    <lightning-layout-item>
+                        <table class="slds-table_col-bordered slds-table_fixed-layout" style="width: auto;">
+                            <tbody>
+                                <template for:each={icons} for:item="icon">
+                                    <td key={icon.Id}>
+                                        <img class="slds-p-left_xx-small slds-p-right_xx-small" src={icon.iconUrl} title={icon.iconTitle}>
+                                    </td>
+                                </template>
+                            </tbody>
+                        </table>
+                    </lightning-layout-item>
+                </lightning-layout>
+            </div>
+        </div>
+    </template>
+</template>

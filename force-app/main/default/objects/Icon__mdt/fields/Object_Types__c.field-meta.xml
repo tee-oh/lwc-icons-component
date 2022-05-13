@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Object_Types__c</fullName>
+    <description>Comma-separated list of objects that the icon should be available to, i.e. Account, Contact, Custom_Object__c, etc.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Comma-separated list of objects that the icon should be available to, i.e. Account, Contact, Custom_Object__c, etc.</inlineHelpText>
+    <label>Object Types</label>
+    <required>true</required>
+    <type>TextArea</type>
+</CustomField>

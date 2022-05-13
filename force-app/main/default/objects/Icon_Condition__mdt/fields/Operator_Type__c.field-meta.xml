@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Operator_Type__c</fullName>
+    <description>Literal, if you are using a real value as the qualifying value i.e. &apos;Test 123&apos;
+System Variable, if you are using a relative date as a qualifying value. i.e. Greater Than...180 Days, Today, etc.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Literal, if you are using a real value as the qualifying value i.e. &apos;Test 123&apos;
+System Variable, if you are using a relative date as a qualifying value. i.e. Greater Than...180 Days, Today, etc.</inlineHelpText>
+    <label>Operator Type</label>
+    <required>true</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Literal</fullName>
+                <default>true</default>
+                <label>Literal</label>
+            </value>
+            <value>
+                <fullName>System Variable</fullName>
+                <default>false</default>
+                <label>System Variable</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

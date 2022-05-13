@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Image__c</fullName>
+    <description>The static resource file name. Examine the properties on the file to determine if the file ends in .png, .PNG, .jpg, etc. This is a case-sensitive value.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>The static resource file name. Examine the properties on the file to determine if the file ends in .png, .PNG, .jpg, etc. This is a case-sensitive value.</inlineHelpText>
+    <label>Image</label>
+    <length>255</length>
+    <required>true</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
