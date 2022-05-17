@@ -1,3 +1,5 @@
+Developed by Hermia Lam, Zach Horton, and Teo Popa.
+
 # lwc-icons-component
 The “Icons” Lighting Web Component (LWC) is intended to provide a scalable, alternative to using standard formula fields (limited by character/byte sizes) to assess record values and display an image (icon/flag) on a Salesforce record. If an organization has a need to evaluate the value of a record field (or several record fields in combination), and display an image (icon/flag) that visually summarizes the state of a record for a user, then they can add the “Icons” component to a flexipage and configure Custom Metadata Type records to declare conditions to show an image under.
 
