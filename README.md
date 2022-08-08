@@ -28,4 +28,5 @@ Additionally, the “Icons” component can be configured to “inherit” and d
 
 1. The "Icons" component can be configured to inherit and display icons from a parent record(s). In order to inherit an icon from a parent record, on the lightning page component properties, enter the API name of the relationship field on the object that you want to navigate through to find parent icons.
 ![1_Inheriting_Icons](https://user-images.githubusercontent.com/43816466/183451673-7d185514-d46b-4424-8d97-6e708afd7c0a.PNG)
+
 ![2_Inheriting_Icons](https://user-images.githubusercontent.com/43816466/183453879-dd77cca9-ef10-44e8-99ed-70cabd6c8140.PNG)
