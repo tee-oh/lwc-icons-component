@@ -18,7 +18,7 @@ Additionally, the “Icons” component can be configured to “inherit” and d
 4. Create an "Icon Condition" custom metadata type record to capture the condition(s) under which an image should be displayed on a record.
 ![4_Icon_Condition_CMT](https://user-images.githubusercontent.com/43816466/168387316-32320326-0b61-4f6f-8cac-0240b7476171.JPG)
 
-5. Add the "Icons" component to the record flexipage that the image will be displayed on. You will not need to set any properties on the component unless you want to inherit icons from parent records (see "Inheriting Icons" section).
+5. Add the "Icons" component to the record lightning page (flexipage) that the image will be displayed on. You will not need to set any properties on the component unless you want to inherit icons from parent records (see "Inheriting Icons" section).
 ![5_Icons_Flexipage](https://user-images.githubusercontent.com/43816466/168386610-6436af88-22ff-4b04-8881-434edb697ce5.JPG)
 
 6. If configured correctly, the component will read the value(s) of the record for the stated condition(s) and display the image if the condition(s) are met.
@@ -26,4 +26,5 @@ Additionally, the “Icons” component can be configured to “inherit” and d
 
 # Inheriting Icons
 
-Will add more here.
+1. The "Icons" component can be configured to inherit and display icons from a parent record(s). In order to inherit an icon from a parent record, on the lightning page component properties, enter the API name of the relationship field on the object that you want to navigate through to find parent icons.
+![1_Inheriting_Icons](https://user-images.githubusercontent.com/43816466/183448198-4e2ed571-43a7-43d1-8745-af96bbaa0f46.PNG)
