@@ -12,6 +12,6 @@
     </values>
     <values>
         <field>Object_Types__c</field>
-        <value xsi:type="xsd:string">Case,Contact</value>
+        <value xsi:type="xsd:string">Case,Contact,Opportunity</value>
     </values>
 </CustomMetadata>
