@@ -9,20 +9,15 @@ Additionally, the “Icons” component can be configured to “inherit” and d
 1. Create a static resource named "Icons" and upload a zipped version of a folder that houses the properly-sized images to be displayed.
 ![1_Static Resource](https://user-images.githubusercontent.com/43816466/168383434-7e033ff2-262b-4534-b1f3-5973228f46ad.JPG)
 
-2. Create an "Icon" custom metadata type record that points to an image from the static resource file. For the file type suffix, verify in the properties of the image file whether to use .jpg, .JPG, .png, .PNG, etc. NOTE: This file extension is case sensitive.
-![2_Icon_CMT](https://user-images.githubusercontent.com/43816466/168387212-599b0e02-e5dc-421a-952d-2792422667d4.JPG)
+2. Create an "Icon" custom metadata type record that points to an image from the static resource file. For the file type suffix, verify in the properties of the image file whether to use .jpg, .JPG, .png, .PNG, etc. NOTE: This file extension is case sensitive. <img width="1001" height="463" alt="2_Icon_CMT_2025" src="https://github.com/user-attachments/assets/b21008de-9c30-4ad1-8f3e-075b0f943c76" />
 
-4. Create an "Icon Condition Group" custom metadata type record that will signal if the conditions involved in displaying the image will be evaluated as "AND" conditions (inclusive), or "OR" conditions (exclusive). NOTE: There is currently no support for a combination of "AND" and "OR" conditions. Condition groups must be one or the other or they will not evaluate correctly. If there is only one condition to display an image, then create a grouping record and select "AND" as the default. In a comma-separated list with no spaces, add in the API name of the object(s) that the image may be displayed on. Essentially, this makes the image "available" to these objects.
-![3_Icon_Condition_Group_CMT](https://user-images.githubusercontent.com/43816466/168387062-06d7a870-fcbc-4f33-8d44-9bc719dec181.JPG)
+4. Create an "Icon Condition Group" custom metadata type record that will signal if the conditions involved in displaying the image will be evaluated as "AND" conditions (inclusive), or "OR" conditions (exclusive). NOTE: There is currently no support for a combination of "AND" and "OR" conditions. Condition groups must be one or the other or they will not evaluate correctly. If there is only one condition to display an image, then create a grouping record and select "AND" as the default. In a comma-separated list with no spaces, add in the API name of the object(s) that the image may be displayed on. Essentially, this makes the image "available" to these objects. <img width="999" height="488" alt="3_Icon_Condition_Group_CMT_2025" src="https://github.com/user-attachments/assets/bfef0694-b36a-4676-a6b5-a046d68baedb" />
 
-5. Create an "Icon Condition" custom metadata type record to capture the condition(s) under which an image should be displayed on a record.
-![4_Icon_Condition_CMT](https://user-images.githubusercontent.com/43816466/168387316-32320326-0b61-4f6f-8cac-0240b7476171.JPG)
+5. Create an "Icon Condition" custom metadata type record to capture the condition(s) under which an image should be displayed on a record. <img width="997" height="425" alt="4_Icon_Condition_CMT_2025" src="https://github.com/user-attachments/assets/f6aac0bf-2da1-42a0-913a-bc174dadcec8" />
 
-6. Add the "Icons" component to the record lightning page (flexipage) that the image will be displayed on. You will not need to set any properties on the component unless you want to inherit icons from parent records (see "Inheriting Icons" section).
-![5_Icons_Flexipage](https://user-images.githubusercontent.com/43816466/168386610-6436af88-22ff-4b04-8881-434edb697ce5.JPG)
+6. Add the "Icons" component to the record lightning page (flexipage) that the image will be displayed on. You will not need to set any properties on the component unless you want to inherit icons from parent records (see "Inheriting Icons" section). <img width="1226" height="706" alt="5_Icons_Flexipage_2025" src="https://github.com/user-attachments/assets/25a825b9-7cc2-4fc8-89f0-ceacfa61acee" />
 
-7. If configured correctly, the component will read the value(s) of the record for the stated condition(s) and display the image if the condition(s) are met.
-![6_Icons_Component](https://user-images.githubusercontent.com/43816466/168387750-de9c7194-9f75-4d39-85f0-246b3b4052c7.JPG)
+7. If configured correctly, the component will read the value(s) of the record for the stated condition(s) and display the image if the condition(s) are met. <img width="1207" height="512" alt="6_Icons_Component_2025" src="https://github.com/user-attachments/assets/05c3dcd9-354f-426d-b4cd-ac8a86f9ae4d" />
 
 # Inheriting Icons
 
